@@ -1,0 +1,238 @@
+/* Reset default styles */
+body, h1, h2, form {
+margin: 0;
+padding: 0;
+}
+/* Set font family */
+body {
+font-family: 'Montserrat', sans-serif;
+background: rgb(174,238,236);
+background: radial-gradient(circle, rgba(174,238,236,1) 13%, 
+rgba(148,187,233,1) 100%);
+}
+.main{
+background-image: url('https://images.unsplash.com/photo-1464618663641-
+bbdd760ae84a?ixlib=rb4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w
+=870&q=80');
+margin: 0px auto 0px auto;
+text-align: center;
+background-size: cover;
+}
+/* Main section */
+main {
+background-color: #f5f5f5;
+padding: 30px;
+font-size: 36px;
+color: blue;
+margin-bottom: 600px;
+text-align: center;
+}
+.q {
+font-size: 36px;
+color: #333;
+margin-bottom: 300px;
+text-align: center;
+}
+#w{
+width: 50px;
+}
+.q1{
+margin-bottom: 200px;
+}
+.e{
+text-align: center;
+}
+#s{
+width: 50px;
+cursor: pointer;
+}
+#n1{
+color: blue;
+}
+form {
+margin-top: 20px;
+text-align: center;
+}
+input[type="text"] {
+padding: 10px;
+width: 300px;
+border: none;
+border-radius: 5px;
+margin-right: 10px;
+}
+/*#button {
+padding: 10px 20px;
+background-color: #007bff;
+color: #fff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}*/
+#city {
+padding: 10px;
+font-size: 16px;
+border: none;
+border-bottom: 2px solid #ccc;
+background-color: #f2f2f2;
+color: #333;
+transition: background-color 0.3s ease;
+}
+#city:focus {
+background-color: #fff;
+}
+#button {
+padding: 10px 30px;
+font-size: 16px;
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,168,255,1) 40%);
+border: none;
+border-radius: 25px;
+box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+#button:hover {
+background-color: #ff9800;
+color: #fff;
+}
+.container {
+max-width: 1200px;
+margin: 0 auto;
+padding: 30px;
+}
+.sectiontitle {
+margin-top: 50px;
+margin-bottom: 30px;
+}
+h2 {
+font-size: 24px;
+color: #007bff;
+}
+/*.weather {
+background-color: #f8f9fa;
+padding: 20px;
+margin-bottom: 20px;
+border-radius: 5px;
+}
+#weather1 {
+background-color: #f8d7da;
+}
+#weather2 {
+background-color: #d4edda;
+}
+#weather3 {
+background-color: #c3e6cb;
+}
+#weather4 {
+background-color: #bee5eb;
+}
+#weather5 {
+background-color: #f8d7da;
+}
+#weather6 {
+background-color: #d4edda;
+}*/
+#weather {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+gap: 20px;
+margin-top: 40px;
+}
+/* Set up forecast cards */
+.weather {
+background-color: #bf4947;
+border-radius: 10px;
+box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 71%, 
+rgba(148,187,233,1) 100%);
+width: 350px;
+height: 400px;
+}
+/* Add unique styling for each forecast card */
+#weather2 {
+background-image: url("https://example.com/forecast2.jpg");
+background-position: center;
+background-size: cover;
+background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 71%, 
+rgba(148,187,233,1) 100%);
+}
+#weather3 {
+background-image: url("https://example.com/forecast3.jpg");
+background-position: center;
+background-size: cover;
+background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 71%, 
+rgba(148,187,233,1) 100%);
+}
+#weather4 {
+background-image: url("https://example.com/forecast4.jpg");
+background-position: center;
+background-size: cover;
+background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 71%, 
+rgba(148,187,233,1) 100%);
+}
+#weather5 {
+background-image: url("https://example.com/forecast5.jpg");
+background-position: center;
+background-size: cover;
+background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 71%, 
+rgba(148,187,233,1) 100%);
+}
+#weather6 {
+background-image: url("https://example.com/forecast6.jpg");
+background-position: center;
+background-size: cover;
+background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 71%, 
+rgba(148,187,233,1) 100%);
+length:20px;
+}
+/* Add a section title */
+.sectiontitle {
+text-align: center;
+margin-bottom: 10px;
+}
+.sectiontitle h2 {
+font-size: 28px;
+font-weight: bold;
+text-transform: uppercase;
+letter-spacing: 1px;
+color: #333;
+}
+#venues {
+display: flex;
+justify-content: center;
+gap: 20px;
+flex-wrap: wrap;
+}
+.venue {
+flex-basis: calc(33.33% - 20px);
+background-color: #FF69B4 ;
+padding: 20px;
+margin-bottom: 20px;
+border-radius: 5px;
+}
+footer{
+padding-top: 20px;
+}
+.feels,.min,.max,.temp,.cond,.pressure,.sea,.ground{
+padding-top: 1px;
+padding-bottom: 10px
+}
+#z{
+padding-left: 200px;
+}
+#s{
+width: 30px;
+padding-right: 10px;
+}
